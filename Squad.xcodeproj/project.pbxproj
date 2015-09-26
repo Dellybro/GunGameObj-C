@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DC62CFA1BB4F0E0000EBDAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC62CF91BB4F0E0000EBDAB /* main.m */; };
+		9DC62CFD1BB4F0E0000EBDAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC62CFC1BB4F0E0000EBDAB /* AppDelegate.m */; };
+		9DC62D001BB4F0E0000EBDAB /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC62CFF1BB4F0E0000EBDAB /* GameScene.m */; };
+		9DC62D021BB4F0E0000EBDAB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9DC62D011BB4F0E0000EBDAB /* GameScene.sks */; };
+		9DC62D051BB4F0E0000EBDAB /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC62D041BB4F0E0000EBDAB /* GameViewController.m */; };
+		9DC62D081BB4F0E0000EBDAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC62D061BB4F0E0000EBDAB /* Main.storyboard */; };
+		9DC62D0A1BB4F0E0000EBDAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC62D091BB4F0E0000EBDAB /* Assets.xcassets */; };
+		9DC62D0D1BB4F0E0000EBDAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC62D0B1BB4F0E0000EBDAB /* LaunchScreen.storyboard */; };
+		9DC62D181BB4F0E0000EBDAB /* SquadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC62D171BB4F0E0000EBDAB /* SquadTests.m */; };
+		9DC62D231BB4F0E0000EBDAB /* SquadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC62D221BB4F0E0000EBDAB /* SquadUITests.m */; };
+		9DC62D321BB4F564000EBDAB /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9DC62D301BB4F564000EBDAB /* MyParticle.sks */; settings = {ASSET_TAGS = (); }; };
+		9DC62D331BB4F564000EBDAB /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC62D311BB4F564000EBDAB /* spark.png */; settings = {ASSET_TAGS = (); }; };
+		9DC62D361BB50123000EBDAB /* ArconShip.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC62D351BB50123000EBDAB /* ArconShip.m */; settings = {ASSET_TAGS = (); }; };
+		9DC62D3C1BB51A43000EBDAB /* NormalAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC62D3B1BB51A43000EBDAB /* NormalAttack.m */; settings = {ASSET_TAGS = (); }; };
+		9DC62D3F1BB51E88000EBDAB /* EnemyNormalAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC62D3E1BB51E88000EBDAB /* EnemyNormalAttack.m */; settings = {ASSET_TAGS = (); }; };
+		9DC62D421BB525C9000EBDAB /* MainShip.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC62D411BB525C9000EBDAB /* MainShip.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DC62D141BB4F0E0000EBDAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DC62CED1BB4F0E0000EBDAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DC62CF41BB4F0E0000EBDAB;
+			remoteInfo = Squad;
+		};
+		9DC62D1F1BB4F0E0000EBDAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DC62CED1BB4F0E0000EBDAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DC62CF41BB4F0E0000EBDAB;
+			remoteInfo = Squad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DC62CF51BB4F0E0000EBDAB /* Squad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC62CF91BB4F0E0000EBDAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DC62CFB1BB4F0E0000EBDAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DC62CFC1BB4F0E0000EBDAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DC62CFE1BB4F0E0000EBDAB /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		9DC62CFF1BB4F0E0000EBDAB /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		9DC62D011BB4F0E0000EBDAB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9DC62D031BB4F0E0000EBDAB /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		9DC62D041BB4F0E0000EBDAB /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		9DC62D071BB4F0E0000EBDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DC62D091BB4F0E0000EBDAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DC62D0C1BB4F0E0000EBDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DC62D0E1BB4F0E0000EBDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC62D131BB4F0E0000EBDAB /* SquadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC62D171BB4F0E0000EBDAB /* SquadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquadTests.m; sourceTree = "<group>"; };
+		9DC62D191BB4F0E0000EBDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC62D1E1BB4F0E0000EBDAB /* SquadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC62D221BB4F0E0000EBDAB /* SquadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquadUITests.m; sourceTree = "<group>"; };
+		9DC62D241BB4F0E0000EBDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC62D301BB4F564000EBDAB /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		9DC62D311BB4F564000EBDAB /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		9DC62D341BB50123000EBDAB /* ArconShip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArconShip.h; sourceTree = "<group>"; };
+		9DC62D351BB50123000EBDAB /* ArconShip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArconShip.m; sourceTree = "<group>"; };
+		9DC62D3A1BB51A43000EBDAB /* NormalAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalAttack.h; sourceTree = "<group>"; };
+		9DC62D3B1BB51A43000EBDAB /* NormalAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalAttack.m; sourceTree = "<group>"; };
+		9DC62D3D1BB51E88000EBDAB /* EnemyNormalAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemyNormalAttack.h; sourceTree = "<group>"; };
+		9DC62D3E1BB51E88000EBDAB /* EnemyNormalAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnemyNormalAttack.m; sourceTree = "<group>"; };
+		9DC62D401BB525C9000EBDAB /* MainShip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainShip.h; sourceTree = "<group>"; };
+		9DC62D411BB525C9000EBDAB /* MainShip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainShip.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DC62CF21BB4F0E0000EBDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC62D101BB4F0E0000EBDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC62D1B1BB4F0E0000EBDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DC62CEC1BB4F0E0000EBDAB = {
+			isa = PBXGroup;
+			children = (
+				9DC62CF71BB4F0E0000EBDAB /* Squad */,
+				9DC62D161BB4F0E0000EBDAB /* SquadTests */,
+				9DC62D211BB4F0E0000EBDAB /* SquadUITests */,
+				9DC62CF61BB4F0E0000EBDAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DC62CF61BB4F0E0000EBDAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DC62CF51BB4F0E0000EBDAB /* Squad.app */,
+				9DC62D131BB4F0E0000EBDAB /* SquadTests.xctest */,
+				9DC62D1E1BB4F0E0000EBDAB /* SquadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DC62CF71BB4F0E0000EBDAB /* Squad */ = {
+			isa = PBXGroup;
+			children = (
+				9DC62CFB1BB4F0E0000EBDAB /* AppDelegate.h */,
+				9DC62CFC1BB4F0E0000EBDAB /* AppDelegate.m */,
+				9DC62CFE1BB4F0E0000EBDAB /* GameScene.h */,
+				9DC62CFF1BB4F0E0000EBDAB /* GameScene.m */,
+				9DC62D011BB4F0E0000EBDAB /* GameScene.sks */,
+				9DC62D031BB4F0E0000EBDAB /* GameViewController.h */,
+				9DC62D041BB4F0E0000EBDAB /* GameViewController.m */,
+				9DC62D061BB4F0E0000EBDAB /* Main.storyboard */,
+				9DC62D091BB4F0E0000EBDAB /* Assets.xcassets */,
+				9DC62D0B1BB4F0E0000EBDAB /* LaunchScreen.storyboard */,
+				9DC62D0E1BB4F0E0000EBDAB /* Info.plist */,
+				9DC62CF81BB4F0E0000EBDAB /* Supporting Files */,
+				9DC62D301BB4F564000EBDAB /* MyParticle.sks */,
+				9DC62D311BB4F564000EBDAB /* spark.png */,
+				9DC62D341BB50123000EBDAB /* ArconShip.h */,
+				9DC62D351BB50123000EBDAB /* ArconShip.m */,
+				9DC62D3A1BB51A43000EBDAB /* NormalAttack.h */,
+				9DC62D3B1BB51A43000EBDAB /* NormalAttack.m */,
+				9DC62D3D1BB51E88000EBDAB /* EnemyNormalAttack.h */,
+				9DC62D3E1BB51E88000EBDAB /* EnemyNormalAttack.m */,
+				9DC62D401BB525C9000EBDAB /* MainShip.h */,
+				9DC62D411BB525C9000EBDAB /* MainShip.m */,
+			);
+			path = Squad;
+			sourceTree = "<group>";
+		};
+		9DC62CF81BB4F0E0000EBDAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DC62CF91BB4F0E0000EBDAB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DC62D161BB4F0E0000EBDAB /* SquadTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DC62D171BB4F0E0000EBDAB /* SquadTests.m */,
+				9DC62D191BB4F0E0000EBDAB /* Info.plist */,
+			);
+			path = SquadTests;
+			sourceTree = "<group>";
+		};
+		9DC62D211BB4F0E0000EBDAB /* SquadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DC62D221BB4F0E0000EBDAB /* SquadUITests.m */,
+				9DC62D241BB4F0E0000EBDAB /* Info.plist */,
+			);
+			path = SquadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DC62CF41BB4F0E0000EBDAB /* Squad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC62D271BB4F0E0000EBDAB /* Build configuration list for PBXNativeTarget "Squad" */;
+			buildPhases = (
+				9DC62CF11BB4F0E0000EBDAB /* Sources */,
+				9DC62CF21BB4F0E0000EBDAB /* Frameworks */,
+				9DC62CF31BB4F0E0000EBDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Squad;
+			productName = Squad;
+			productReference = 9DC62CF51BB4F0E0000EBDAB /* Squad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DC62D121BB4F0E0000EBDAB /* SquadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC62D2A1BB4F0E0000EBDAB /* Build configuration list for PBXNativeTarget "SquadTests" */;
+			buildPhases = (
+				9DC62D0F1BB4F0E0000EBDAB /* Sources */,
+				9DC62D101BB4F0E0000EBDAB /* Frameworks */,
+				9DC62D111BB4F0E0000EBDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DC62D151BB4F0E0000EBDAB /* PBXTargetDependency */,
+			);
+			name = SquadTests;
+			productName = SquadTests;
+			productReference = 9DC62D131BB4F0E0000EBDAB /* SquadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DC62D1D1BB4F0E0000EBDAB /* SquadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC62D2D1BB4F0E0000EBDAB /* Build configuration list for PBXNativeTarget "SquadUITests" */;
+			buildPhases = (
+				9DC62D1A1BB4F0E0000EBDAB /* Sources */,
+				9DC62D1B1BB4F0E0000EBDAB /* Frameworks */,
+				9DC62D1C1BB4F0E0000EBDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DC62D201BB4F0E0000EBDAB /* PBXTargetDependency */,
+			);
+			name = SquadUITests;
+			productName = SquadUITests;
+			productReference = 9DC62D1E1BB4F0E0000EBDAB /* SquadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DC62CED1BB4F0E0000EBDAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Travis Delly";
+				TargetAttributes = {
+					9DC62CF41BB4F0E0000EBDAB = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = CVR49AKL92;
+					};
+					9DC62D121BB4F0E0000EBDAB = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = CVR49AKL92;
+						TestTargetID = 9DC62CF41BB4F0E0000EBDAB;
+					};
+					9DC62D1D1BB4F0E0000EBDAB = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = CVR49AKL92;
+						TestTargetID = 9DC62CF41BB4F0E0000EBDAB;
+					};
+				};
+			};
+			buildConfigurationList = 9DC62CF01BB4F0E0000EBDAB /* Build configuration list for PBXProject "Squad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DC62CEC1BB4F0E0000EBDAB;
+			productRefGroup = 9DC62CF61BB4F0E0000EBDAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DC62CF41BB4F0E0000EBDAB /* Squad */,
+				9DC62D121BB4F0E0000EBDAB /* SquadTests */,
+				9DC62D1D1BB4F0E0000EBDAB /* SquadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DC62CF31BB4F0E0000EBDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC62D021BB4F0E0000EBDAB /* GameScene.sks in Resources */,
+				9DC62D331BB4F564000EBDAB /* spark.png in Resources */,
+				9DC62D0D1BB4F0E0000EBDAB /* LaunchScreen.storyboard in Resources */,
+				9DC62D0A1BB4F0E0000EBDAB /* Assets.xcassets in Resources */,
+				9DC62D081BB4F0E0000EBDAB /* Main.storyboard in Resources */,
+				9DC62D321BB4F564000EBDAB /* MyParticle.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC62D111BB4F0E0000EBDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC62D1C1BB4F0E0000EBDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DC62CF11BB4F0E0000EBDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC62D3C1BB51A43000EBDAB /* NormalAttack.m in Sources */,
+				9DC62D3F1BB51E88000EBDAB /* EnemyNormalAttack.m in Sources */,
+				9DC62D361BB50123000EBDAB /* ArconShip.m in Sources */,
+				9DC62D051BB4F0E0000EBDAB /* GameViewController.m in Sources */,
+				9DC62CFD1BB4F0E0000EBDAB /* AppDelegate.m in Sources */,
+				9DC62D001BB4F0E0000EBDAB /* GameScene.m in Sources */,
+				9DC62D421BB525C9000EBDAB /* MainShip.m in Sources */,
+				9DC62CFA1BB4F0E0000EBDAB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC62D0F1BB4F0E0000EBDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC62D181BB4F0E0000EBDAB /* SquadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC62D1A1BB4F0E0000EBDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC62D231BB4F0E0000EBDAB /* SquadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DC62D151BB4F0E0000EBDAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DC62CF41BB4F0E0000EBDAB /* Squad */;
+			targetProxy = 9DC62D141BB4F0E0000EBDAB /* PBXContainerItemProxy */;
+		};
+		9DC62D201BB4F0E0000EBDAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DC62CF41BB4F0E0000EBDAB /* Squad */;
+			targetProxy = 9DC62D1F1BB4F0E0000EBDAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DC62D061BB4F0E0000EBDAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC62D071BB4F0E0000EBDAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DC62D0B1BB4F0E0000EBDAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC62D0C1BB4F0E0000EBDAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DC62D251BB4F0E0000EBDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9DC62D261BB4F0E0000EBDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DC62D281BB4F0E0000EBDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Squad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dellybro.Squad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DC62D291BB4F0E0000EBDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Squad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dellybro.Squad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9DC62D2B1BB4F0E0000EBDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SquadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dellybro.SquadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squad.app/Squad";
+			};
+			name = Debug;
+		};
+		9DC62D2C1BB4F0E0000EBDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SquadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dellybro.SquadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squad.app/Squad";
+			};
+			name = Release;
+		};
+		9DC62D2E1BB4F0E0000EBDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SquadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dellybro.SquadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Squad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9DC62D2F1BB4F0E0000EBDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SquadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dellybro.SquadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Squad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DC62CF01BB4F0E0000EBDAB /* Build configuration list for PBXProject "Squad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC62D251BB4F0E0000EBDAB /* Debug */,
+				9DC62D261BB4F0E0000EBDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC62D271BB4F0E0000EBDAB /* Build configuration list for PBXNativeTarget "Squad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC62D281BB4F0E0000EBDAB /* Debug */,
+				9DC62D291BB4F0E0000EBDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DC62D2A1BB4F0E0000EBDAB /* Build configuration list for PBXNativeTarget "SquadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC62D2B1BB4F0E0000EBDAB /* Debug */,
+				9DC62D2C1BB4F0E0000EBDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DC62D2D1BB4F0E0000EBDAB /* Build configuration list for PBXNativeTarget "SquadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC62D2E1BB4F0E0000EBDAB /* Debug */,
+				9DC62D2F1BB4F0E0000EBDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DC62CED1BB4F0E0000EBDAB /* Project object */;
+}
